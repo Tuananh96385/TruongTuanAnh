@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="8"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textviewTenMH"
+        android:layout_width="match_parent"
+        android:text="Tên Môn Học"
+        android:textColor="@color/btn_login1"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/textviewTenSV"
+        android:layout_width="match_parent"
+        android:text="Tên Sinh Viên"
+        android:textColor="@color/btn_login1"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/textviewMaSoSV"
+        android:layout_width="match_parent"
+        android:text="Mã Số Sinh Viên"
+        android:textColor="@color/btn_login1"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/textviewSoTC"
+        android:layout_width="match_parent"
+        android:text="Số Tín Chỉ"
+        android:textColor="@color/btn_login1"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/textviewLopHocSV"
+        android:layout_width="match_parent"
+        android:text="Lớp Học Sinh Viên"
+        android:textColor="@color/btn_login1"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewEdit"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_edit"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageViewDelete"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon_delete"></ImageView>
+
+</LinearLayout>

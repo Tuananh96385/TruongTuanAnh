@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/btn_login1"
+        android:textSize="30sp"
+        android:text="Cập nhật Môn Học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Nhập tên Môn Học"
+        android:id="@+id/editTextTenMHEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/btn_login1"
+        android:textSize="30sp"
+        android:text="Cập nhật Tên Sinh Viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Nhập tên Môn Học"
+        android:id="@+id/editTextTenSVEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/btn_login1"
+        android:textSize="30sp"
+        android:text="Cập nhật Mã Số Sinh Viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Nhập tên Môn Học"
+        android:id="@+id/editTextMaSoSVEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/btn_login1"
+        android:textSize="30sp"
+        android:text="Cập nhật Số Tín Chỉ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Nhập tên Môn Học"
+        android:id="@+id/editTextSoTCEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/btn_login1"
+        android:textSize="30sp"
+        android:text="Cập nhật Lớp Học Sinh Viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Nhập tên Môn Học"
+        android:id="@+id/editTextLopHocSVHEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnXanNhan"
+            android:layout_weight="1"
+            android:text="Xác Nhận"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:id="@+id/btnHuyEdit"
+            android:layout_weight="1"
+            android:text="Huỷ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen_login"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/bg_login"
+        android:layout_width="390dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/logo_login">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:background="#ffffff"
+        android:layout_marginTop="160dp"
+        android:hint="Username"></EditText>
+
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:drawableLeft="@drawable/ic_action_password1"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:hint="Password"></EditText>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/btn_login"
+        android:textColor="@color/btn_login1"></Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+       <Button
+           android:id="@+id/btn_forgot_password"
+           android:layout_width="wrap_content"
+           android:layout_height="45dp"
+           android:text="@string/forgot_password"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:text="@string/register"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/icon_fb"
+            android:id="@+id/btn_icon_fb"
+            android:layout_marginLeft="30dp"
+            android:layout_width="80dp"
+            android:textStyle="bold"
+            android:layout_height="45dp" />
+
+        <Button
+            android:background="@drawable/icon_phone"
+            android:id="@+id/btn_icon_phone"
+            android:layout_marginLeft="30dp"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:background="@drawable/icon_google"
+            android:id="@+id/btn_icon_google"
+            android:layout_marginLeft="30dp"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">truongtuananh</string>
+    <string name="forgot_password">Forgot_Password?</string>
+    <string name="register">REGISTER</string>
+    <string name="btn_login">Login</string>
+
+</resources>
